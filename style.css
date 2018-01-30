@@ -1,6 +1,11 @@
 body{
-     background: url(https://github.com/Venika/Venika.github.io/blob/master/bg.jpg?raw=true) no-repeat center;
-     background-size: auto;
+    height: 0;
+    padding: 0;
+    padding-bottom: 75%; /* for a 4:3 aspect ratio */
+    background-image: url(https://github.com/Venika/Venika.github.io/blob/master/bg.jpg?raw=true);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;     
     }
 .box{
    width: 450px;
