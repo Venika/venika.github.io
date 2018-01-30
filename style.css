@@ -52,4 +52,23 @@ ul{
 .box li a:hover{
      color: #b9b9b9;
 }
-     
+
+#quoteBar {
+  background-color: #979797;
+  height: 1px;
+  width: 120px;
+  margin-top: 47px;
+}
+
+#quote {
+  font-style: italic;
+  margin: 14px 0 0 0;
+  font-size: 14pt;
+  margin-bottom: 30px;
+}
+
+
+#quote {
+    text-align: left;
+    font-size: 14pt;
+  }
