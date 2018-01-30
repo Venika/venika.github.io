@@ -1,12 +1,8 @@
-html, body{
-     margin:0;
+body{
      padding:0;
+     margin:0;
      height: 100%;
      width: 100%
-}
-
-body{
-     margin:0;
      background: url(https://github.com/Venika/Venika.github.io/blob/master/bg.jpg?raw=true) no-repeat center;
      background-size: cover;
     }
