@@ -32,6 +32,7 @@ body{
 }
 .box p{
    text-align: justify;
+   font-family: 'Centuary Gothic', sans-serif;
    font-size: 15pt;
 }
 ul{
@@ -53,22 +54,12 @@ ul{
      color: #b9b9b9;
 }
 
-#quoteBar {
-  background-color: #979797;
-  height: 1px;
-  width: 120px;
-  margin-top: 47px;
-}
 
 #quote {
   font-style: italic;
   margin: 14px 0 0 0;
-  font-size: 14pt;
+  font-size: 20pt;
   margin-bottom: 30px;
-}
-
-
-#quote {
-    text-align: left;
-    font-size: 14pt;
+  text-align: center;
+  color: white;
   }
