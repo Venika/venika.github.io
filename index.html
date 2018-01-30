@@ -4,4 +4,17 @@
 <h1>Hello everyone</h1>
 <p>This is how I currently look. Let's see how I change after Venika works her magic</p>
 </body>
+  
+  <script>
+var quotes = [
+  "Success isn't about being the best. It's about always getting better.",
+  "Nothing ventured, nothing gained.",
+  "The world is your oyster."
+];
+function randomQuote() {
+  return quotes[Math.floor(Math.random() * quotes.length)];
+}
+document.getElementById('quote').innerHTML = '"' + randomQuote() + '"';
+</script>
+  
 </html>
