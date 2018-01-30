@@ -29,14 +29,18 @@
 
 <script>
 var quotes = [
-  "testr.",
-  "test1.",
-  "The world is your oyster."
+  "“It is during our darkest moments that we must focus to see the light.” —Aristotle Onassis",
+  "“Don’t judge each day by the harvest you reap but by the seeds that you plant.” —Robert Louis Stevenson",
+  "“The only person you are destined to become is the person you decide to be.” —Ralph Waldo Emerson",
+  "“Nothing will work unless you do.” —Maya Angelou",
+  "“People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.” -Rob Siltanen",
+  "“Whether You Think You Can Or Think You Can’t, You’re Right.” -Henry Ford",
+  "“You Are Never Too Old To Set Another Goal Or To Dream A New Dream.” -C.S. Lewis",
 ];
 function randomQuote() {
   return quotes[Math.floor(Math.random() * quotes.length)];
 }
-document.getElementById('quote').innerHTML = '"' + randomQuote() + '"';
+document.getElementById('quote').innerHTML = randomQuote();
 </script>
 </body>
  </html>
