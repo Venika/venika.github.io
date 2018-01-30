@@ -24,5 +24,21 @@
  </ul> 
   
   </div>
+   <div id="quoteBar"></div>
+
+  <blockquote id="quote">"Success isn't about being the best. It's about always getting better."</blockquote>
+</div>
+
+<script>
+var quotes = [
+  "testr.",
+  "test1.",
+  "The world is your oyster."
+];
+function randomQuote() {
+  return quotes[Math.floor(Math.random() * quotes.length)];
+}
+document.getElementById('quote').innerHTML = '"' + randomQuote() + '"';
+</script>
 </body>
  </html>
