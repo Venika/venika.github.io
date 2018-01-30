@@ -1,6 +1,16 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body{
+    height:100%;
+}
 body{
-    background: url(https://github.com/Venika/Venika.github.io/blob/master/bg.jpg?raw=true) center cover no-repeat fixed;
+    background: url(https://github.com/Venika/Venika.github.io/blob/master/bg.jpg?raw=true) no-repeat center center;
+    background-size:cover;
     }
+
+
 .box{
    width: 450px;
    background: rgba(0,0,0,0.4);
