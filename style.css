@@ -1,27 +1,19 @@
 html, body{
-  margin:0;
-  padding: 0;
-  width:100%;
-  height:100%;
-}
-.b1{
-  width:100%;
-  height:100%;
-  margin:auto;
-  background: url(https://github.com/Venika/Venika.github.io/blob/master/bg.jpg?raw=true) no-repeat 50% 50%;
-  top=0;
-  display: table;
-  background-size: cover;
-}
-.b1 .in1{
-    display: table-cell;
-    vertical-align: middle;
-    width: 100%;
-    max-width: none;
+   margin:0;
+   padding: 0;
+   width:100%;
+   height:100%;
+ }
+
+body{
+     background: url(https://github.com/Venika/Venika.github.io/blob/master/bg.jpg?raw=true) no-repeat center;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
 }
 .content h1{
-    font-family: 'Centuary Gothic', sans-serif;
-    color: #f9f3f4;
-    font-size: 500%;
-    text-shadow: 0 0 300px #000
-}
+     font-family: 'Centuary Gothic', sans-serif;
+     color: #f9f3f4;
+     font-size: 500%;
+     text-shadow: 0 0 300px #000
+ }
