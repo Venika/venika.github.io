@@ -13,7 +13,7 @@ body{
    padding: 40px;
    text-align: center;
    margin: auto;
-   margin-top:3%;
+   margin-top:5%;
    color: white;
    font-family: 'AppleGothic';
 }
@@ -63,7 +63,7 @@ ul{
   font-style: italic;
   margin: 14px 0 0 0;
   font-size: 20pt;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
   color: white;
   }
