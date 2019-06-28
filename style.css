@@ -13,7 +13,7 @@ body{
 
 #particles-js
 {
-  position: fixed;
+  position: absolute;
   height: 100%;
   width: 100%;
 
@@ -55,21 +55,22 @@ body{
    font-size: 12pt;
 }
 ul{
+
      margin:0;
      padding: 0;
 }
-#box li{
+#box1 li{
      display: inline-block;
      margin: 6px;
      list-style: none;
 }
-#box li a{
+#box1 li a{
      color: white;
      text-decoration: none;
      font-size: 60px;
      transition :all ease-in-out 250ms;
 }
-#box li a:hover{
+#box1 li a:hover{
      color: #b9b9b9;
 }
 
