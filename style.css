@@ -3,8 +3,15 @@ body{
     padding:0;
     background: url(https://github.com/Venika/Venika.github.io/blob/master/bg.jpg?raw=true) no-repeat;
     background-size:cover;
-    height:100vh;
+    height:100%;
     }
+
+#particles-js
+{
+  height: 100%;
+
+}
+
 
 
 .box{
@@ -33,7 +40,7 @@ body{
 .box h5{
   font-size: 20pt;
   letter-spacing: 2px;
-  font-weight:100;  
+  font-weight:100;
 }
 .box p{
    text-align: justify;
