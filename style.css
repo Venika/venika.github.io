@@ -3,7 +3,8 @@ body{
     padding:0;
     background: url(https://github.com/Venika/Venika.github.io/blob/master/Background.jpeg?raw=true) no-repeat;
     background-size:cover;
-    height:100%;
+    height:device-height;
+    
     }
 
 .wrapper{
