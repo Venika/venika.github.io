@@ -29,7 +29,7 @@
    padding: 50px;
    text-align: center;
    margin: auto;
-   margin-top:10%;
+   margin-top:6%;
    margin-bottom:2%;
    color: white;
    font-family: 'AppleGothic';
@@ -82,12 +82,11 @@ ul{
 
 #quote {
   font-style: italic;
-  width: 100%
-  margin: 14px 0 0 0;
   font-size: 20pt;
   text-shadow: 1px 1px #000000;
-  margin:0 auto;
-  display: block;
   text-align: center;
+  margin: 0 auto;
+  margin-bottom:5%;
   color: white;
+
   }
