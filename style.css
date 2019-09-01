@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     background: url(https://github.com/Venika/Venika.github.io/blob/master/Background.jpeg?raw=true) ;
-    background-size:contain;
+    background-size:cover;
     background-position: center center;
     height:100%;
     width:100%;
