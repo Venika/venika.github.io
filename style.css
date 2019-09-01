@@ -87,6 +87,7 @@ ul{
   font-size: 20pt;
   text-shadow: 1px 1px #000000;
   margin:0 auto;
+  display: block;
   text-align: center;
   color: white;
   }
