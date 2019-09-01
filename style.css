@@ -9,7 +9,10 @@
 
     }
 
-
+    #rectangle{
+        width:200px;
+        height:1px;
+    }
 
 #particles-js
 {
@@ -75,6 +78,7 @@ ul{
 }
 
 
+
 #quote {
   font-style: italic;
   width: 100%
@@ -82,7 +86,6 @@ ul{
   font-size: 20pt;
   text-shadow: 1px 1px #000000;
   margin-bottom: 10px;
-  margin-left:50%;
   text-align: center;
   color: white;
   }
