@@ -1,15 +1,18 @@
- body{
-    margin:0;
-    padding:0;
-    background: url(https://github.com/Venika/Venika.github.io/blob/master/Background.jpeg?raw=true) ;
-    background-size:cover;
-    background-position: center center;
-    height:100%;
-    width:100%;
+*{    margin:0;   padding:0;}
 
+ html{
+   background: url(https://github.com/Venika/Venika.github.io/blob/master/Background.jpeg?raw=true) no-repeat center center fixed ;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+
+ body{
+  margin:0;   padding:0;
     }
 
-    #rectangle{
+#rectangle{
         width:200px;
         height:1px;
     }
@@ -21,11 +24,10 @@
   height: 100%;
 }
 
-
 #box{
 
    width: 450px;
-   background: rgba(0,0,0,0.4);
+   background: rgba(0,0,0,0.5);
    padding: 50px;
    text-align: center;
    margin: auto;
@@ -58,24 +60,26 @@
    text-align: justify;
    font-size: 15pt;
 }
+
 ul{
     position: relative;
      margin:auto;
-
 }
+
 #box1 li{
      display: inline-block;
      margin: 1%;
-     list-style: none;
+     list-style:square;
 }
 #box1 li a{
      color: white;
      text-decoration: none;
      font-size: 60px;
-     transition :all ease-in-out 250ms;
+     transition :all ease-in-out 300ms;
 }
 #box1 li a:hover{
      color: grey;
+     font-size: 75px;
 }
 
 
@@ -84,9 +88,12 @@ ul{
   font-style: italic;
   font-size: 20pt;
   text-shadow: 1px 1px #000000;
+  width: 450px;
+  padding: 50px;
   text-align: center;
-  width: 100%;
-  margin-bottom:5%;
+  margin-bottom:2%;
+  margin: 0 auto;
   color: white;
+
 
   }
