@@ -15,6 +15,7 @@
     --baby-blue: #70d6ffff;
     --white: #ffffffff;
     --black: #000000;
+    --dark: #0f0f2e;
 }
 
 
@@ -24,6 +25,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* .bold {
+
+} */
 
 html{
     font-size: 10px;
@@ -35,7 +40,7 @@ body{
     height: 100%;
     /*background: url("images/sitebg.png") no-repeat center fixed;
     background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);*/
-    background: rgb(15, 15, 46);
+    background: #0f0f2e;
     width: 100%;
 	
     /*
@@ -435,6 +440,9 @@ svg1 {
 /*End header*/
 
 /*Start about*/
+.about {
+    background: linear-gradient(180deg, var(--dark), var(--sizzling-red), var(--dark) );
+}
 .about .container{
     display: flex;
     align-items: center;
@@ -459,6 +467,7 @@ svg1 {
     font-size: 2rem;
     font-weight: 300;
     color: var(--white);
+    
 }
 
 .profile-img{
@@ -469,62 +478,118 @@ svg1 {
 .about-details{
     user-select: none;
     flex: 1;
+    
+    /* text-shadow: 0.5px 0.5px #000000; */
 }
 
 /*End about*/
 
 
 /*Start portfolio*/
-.portfolio-item{
+.portfolio{
+    /* background: linear-gradient(180deg, var(--dark), var(--white), var(--dark) ); */
+    background: var(--dark);
+}
+
+  
+ 
+.portfolio .main{
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+
+.portfolio h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.portfolio img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.portfolio .btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+
+.portfolio .btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.cards li {
+    margin: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 2rem;
+  width: 33.3333%;
+  /* box-sizing: border-box; */
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem;
-    
-}
-
-.portfolio-item:last-child{
-    margin-bottom: 0;
-}
-
-.portfolio-img{
-    flex: 1;
-}
-
-.portfolio-description{
-    flex: 1;
-    
-}
-
-.portfolio-description h6{
-    font-size: 3rem;
-    font-weight: 300;
-    margin: 1rem 0;     
-}
-
-.portfolio-description h6{
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 300;
-    opacity: 0.3;     
-}
-
-.portfolio-description .cta{
-    display: inline-block;
-    margin-top: 2.5rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #3038e2ff;
-    transition: color 650ms;
-}
-
-.portfolio-description .cta:hover{
-    color: #2f67cd;
-}
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  }
+  
+  .card_title {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+  
 
 /*End portfolio*/
 
 /*Start journey*/
+.journey{
+    /* background-color: var(--white); */
+    background: var(--dark);
+}
 
 .resume-color{
     color: var(--honey-yellow);
