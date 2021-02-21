@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <title>Personal Website</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+
+
+<body>
+  <div class="wrapper">
+    <div id="rectangle"></div>
+    <div id = "particles-js"></div>
+    <script type= "text/javascript" src="particles.js"></script>
+    <script type= "text/javascript" src="app.js"></script>
+    <div id = "box">
+    <img src="https://github.com/Venika/Venika.github.io/blob/master/12%20-%20Copy.jpg?raw=true" alt="" class="box-img">
+    <h1>Venika Gaur</h1>
+    <h5>Student. Programmer. Traveler. Aspiring Entrepreneur. </h5>
+    <p>Hi, my name is Venika! I am currently a senior at University of Alabama in Huntsville. I am majoring in Computer Science with a Math and a Business minor. I love traveling, meeting new people and experiencing new things.</p>
+    <div id = "box1">
+    <ul>
+      <li><a href="Venika.github.io/VGaurResume.pdf"><i class="fa fa-file-text" aria-hidden="true"></i></a></li>
+      <li><a href="https://github.com/Venika"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/venika-gaur-64b800138"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+      <li><a href="mailto:venika.gaur2610@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+   <!--
+      <li><a href="projects.html"><i class="fa fa-wrench" ></i></a></li> -->  
+    </ul>
+    </div>
+  </div>
+ <div><blockquote id="quote">"Success isn't about being the best. It's about always getting better."</blockquote></div>
+
+  </div>
+
+
+
+<script>
+var quotes = [
+  "“It is during our darkest moments that we must focus to see the light.” —Aristotle Onassis",
+  "“Don’t judge each day by the harvest you reap but by the seeds that you plant.” —Robert Louis Stevenson",
+  "“The only person you are destined to become is the person you decide to be.” —Ralph Waldo Emerson",
+  "“Nothing will work unless you do.” —Maya Angelou",
+  "“People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.” -Rob Siltanen",
+  "“Whether You Think You Can Or Think You Can’t, You’re Right.” -Henry Ford",
+  "“All progress takes place outside the comfort zone.” -Michael John Bobak",
+  "“Life is 10% what happens to you and 90% how you react to it.” -Charles Swindoll",
+  "“Just when the caterpillar thought the world was ending, he turned into a butterfly.” -Proverb",
+  "“Opportunities don't happen, you create them.” -Chris Grosser",
+  "“I believe that the only courage anybody ever needs is the courage to follow your own dreams.” -Oprah Winfrey",
+  "“Thinking should become your capital asset, no matter whatever ups and downs you come across in your life.” -A.P.J. Abdul Kalam",
+  "“You Are Never Too Old To Set Another Goal Or To Dream A New Dream.” -C.S. Lewis",
+];
+function randomQuote() {
+  return quotes[Math.floor(Math.random() * quotes.length)];
+}
+document.getElementById('quote').innerHTML = randomQuote();
+</script>
+</body>
+ </html>
