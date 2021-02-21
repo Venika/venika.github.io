@@ -12,7 +12,7 @@ $(document).ready(function () {
 
     $('nav a[href*="#"]').on('click', function (){
         $('html, body').animate({
-            scrollTop: $($(this).attr('href')).offset().top},
+            scrollTop: $($(this).attr('href')).offset().top-25},
             2000);
         });
 

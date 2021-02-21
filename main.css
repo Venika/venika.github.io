@@ -15,7 +15,8 @@
     --baby-blue: #70d6ffff;
     --white: #ffffffff;
     --black: #000000;
-    --dark: #0f0f2e;
+    --dark1: #0f0f2e;
+    --dark: #07070f;
 }
 
 
@@ -603,7 +604,6 @@ svg1 {
   }
   
 
-
 /*End portfolio*/
 
 /*Start journey*/
@@ -1141,14 +1141,11 @@ svg1 {
     
 
 
-
-
-
-
-
-
 @media screen and (max-width: 600px){
 
+    section{
+        padding: 3rem 0;
+    }
 
     .menu-toggler{
         top: 2rem;
@@ -1207,6 +1204,8 @@ svg1 {
     .up{
         right: 2rem;
     }
+
+    
 
     .cards_item {
 
