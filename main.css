@@ -477,6 +477,7 @@ svg1 {
 
 .profile-img{
     flex:1;
+    user-select: none;
     margin-right: 5rem;
     
 }
