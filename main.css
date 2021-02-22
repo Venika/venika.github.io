@@ -958,7 +958,7 @@ svg1 {
 /*End animations*/
 
 /*Start media queries*/
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px){
 
     .mobile_device_600px{display: block;}
     .desktop {display: none;}
@@ -970,7 +970,7 @@ svg1 {
     }
 
     .landing-text .moving-heading .bio h1{
-        font-size: 1.6rem;
+        font-size: 2.3rem;
         color: white;
         margin-top: 1rem;
         margin-bottom: 5rem;
@@ -988,8 +988,8 @@ svg1 {
     .menu-toggler{
         top: 2rem;
         right: 2rem;
-        width: 4rem;
-        height: 3rem;
+        width: 6rem;
+        height: 5rem;
     }
     
     /* body{
@@ -1157,6 +1157,10 @@ svg1 {
 
     .landing-text h1{
         font-size: 8.5rem;
+    }
+
+    .landing-text .moving-heading .bio h1{
+        font-size: 1.5rem; 
     }
 
     .social-media a{
