@@ -755,7 +755,7 @@ svg1 {
     background: rgb(255,255,255);
     font-weight: 600;
     z-index: 15;
-    padding: 6px 10px;
+    padding: 6px 8px;
     text-align: left;
     border-radius: 5px;
   }
@@ -821,7 +821,8 @@ svg1 {
 .time {
     background: var(--baby-blue);
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 5px;
+    font-size: 13px;
   }
   
   .desc {
