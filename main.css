@@ -163,7 +163,7 @@ li{
 
 .nav-link{
     font-family: "Courier New" ;
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 1rem;
 }
 
@@ -1035,7 +1035,7 @@ svg1 {
     }
 
     .nav-link{
-        font-size: 4.5rem;
+        font-size: 3rem;
     }
 
     .about-heading h1{
@@ -1213,6 +1213,10 @@ svg1 {
     }
 
     
+    .nav-link{
+        font-size: 2.5rem;
+    }
+
 
     .cards_item {
 
