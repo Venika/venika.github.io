@@ -478,8 +478,15 @@ svg1 {
 .profile-img{
     flex:1;
     user-select: none;
-    margin-right: 5rem;
-    
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img img{
+    width: 30%;   
 }
 
 .about-details{
