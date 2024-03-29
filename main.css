@@ -927,13 +927,14 @@ svg1 {
 
 /* This is for the heading moving text in mobile */
 .mobile_device_600px{display: none;}
-
+.tablet_device_600px{display: none;}
 /*End animations*/
 
 /*Start media queries*/
 @media only screen and (max-width: 1024px){
 
-    .mobile_device_600px{display: block;}
+    .tablet_device_600px{display: block;}
+    .mobile_device_600px{display: none;}
     .desktop {display: none;}
     .moving-heading .text {
         fill: none;
@@ -1115,14 +1116,16 @@ svg1 {
         width: 70%;
         /* box-sizing: border-box; */
       }
-
-      
-
     }
     
 
 
 @media screen and (max-width: 600px){
+
+
+    .mobile_device_600px{display: block;}
+    .tablet_device_600px{display: none;}
+    .desktop {display: none;}
 
     section{
         padding: 3rem 0;
