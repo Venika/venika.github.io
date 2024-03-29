@@ -1088,7 +1088,7 @@ svg1 {
     
     .time-wrapper {
     display: block;
-    margin: 4px 0 0 0;
+    margin: 1em 0 0 0;
     }
 
     .direction-l .time-wrapper {
@@ -1106,7 +1106,7 @@ svg1 {
     .direction-l .desc,
     .direction-r .desc {
     position: relative;
-    margin: 1em 1em 0 1em;
+    margin: 0.3em 0 0 0;
     padding: 1em;
     z-index: 15;
     }
@@ -1115,6 +1115,8 @@ svg1 {
         width: 70%;
         /* box-sizing: border-box; */
       }
+
+      
 
     }
     
@@ -1196,7 +1198,7 @@ svg1 {
 
     .cards_item {
 
-        width: 70%;
+        width: 85%;
         /* box-sizing: border-box; */
       }
 }
