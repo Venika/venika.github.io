@@ -338,14 +338,7 @@ svg1 {
     text-align: center;
     margin: 0 auto;
 }
-.wrapper .container .circle {
-    fill: none;
-    stroke: #ffffff;
-    stroke-width: 3px;
-    stroke-dasharray: 40;
-    transition: all 0.2s ease-in-out;
-    animation: outWaveOut 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
-}
+
 .wrapper .container .social {
     color: white;
     font-size: 2.3em;
@@ -359,39 +352,58 @@ svg1 {
 .wrapper .container:hover {
     cursor: pointer;
 }
-.resume:hover .circle {
-    fill: #ffffff;
-    fill-opacity: 1;
-    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorResume 1s linear forwards;
-}
+
 .resume:hover .social {
     color: var(--celadon);
 }
-.github:hover .circle {
-    fill: #ffffff;
-    fill-opacity: 1;
-    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGithub 1s linear forwards;
-}
+
 .github:hover .social {
     color: var(--honey-yellow);
 }
-.gmail:hover .circle {
-    fill: #ffffff;
-    fill-opacity: 1;
-    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGmail 1s linear forwards;
-}
+
 .gmail:hover .social {
     color: var(--sizzling-red);
 }
-.linkedin:hover .circle {
-    fill: #ffffff;
-    fill-opacity: 1;
-    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorLinkedin 1s linear forwards;
-}
+
 .linkedin:hover .social {
     color: #007bb6;
 }
-@keyframes colorResume {
+
+/* This is for animating the outer circle */
+/* .wrapper .container .circle {
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 3px;
+    stroke-dasharray: 40;
+    transition: all 0.2s ease-in-out;
+    animation: outWaveOut 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+} */
+
+/* .linkedin:hover .circle {
+    fill: #ffffff;
+    fill-opacity: 1;
+    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorLinkedin 1s linear forwards;
+} */
+
+/* .gmail:hover .circle {
+    fill: #ffffff;
+    fill-opacity: 1;
+    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGmail 1s linear forwards;
+} */
+
+/* .github:hover .circle {
+    fill: #ffffff;
+    fill-opacity: 1;
+    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGithub 1s linear forwards;
+} */
+
+/* .resume:hover .circle {
+    fill: #ffffff;
+    fill-opacity: 1;
+    animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorResume 1s linear forwards;
+} */
+
+/* @keyframes colorResume {
     from {
     stroke: #ffffff;
     }
@@ -439,7 +451,7 @@ svg1 {
     stroke-width: 5px;
     stroke-dasharray: 40;
     }
-}
+} */
 
 
 /*End header*/
